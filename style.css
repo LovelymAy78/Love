@@ -1,0 +1,636 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+
+.banner{
+    width: 100%;
+    background: url(sunset.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 110vh;
+
+}
+ 
+.pic    {
+    width: 20%;
+    height: 60vh;
+    display: block;
+    margin-left: 6%;  
+    background: url(green.jpg);
+    background-size: cover;
+
+}
+
+.navbar{
+    width: 95%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.logo{
+    width: 90;
+    height: 90;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 45px;     
+}
+.navbar ul li::after{
+    content: '';
+    height: 1px;
+    width: 0;
+    background: #f4b1d2;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+
+}
+.homepage{
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    right: 500px;
+    top: 100px;
+    margin-left: 10px;    
+    transform: translateY(50%);
+    text-align: center;
+    padding: 80px;
+    border-top: 50px 50px;
+    color: rgb(6, 6, 6);
+    font-size: 35px;
+}
+
+.aboutbanner{
+    width: 100%;
+    background: url(sunset.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.aboutnavbar{
+    width: 95%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.aboutnavbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.aboutnavbar ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 45px;
+}
+.aboutnavbar ul li::after{
+    content: '';
+    height: 1px;
+    width: 0;
+    background: #f4b1d2;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.aboutnavbar ul li:hover::after{
+    width: 100%;
+
+}
+.aboutpage{
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    top: 100px;
+    margin-left: 10px;    
+    transform: translateY(50%);
+    text-align: left;
+    padding: 80px;
+    border-top: 50px 50px;
+    color: rgb(6, 6, 6);
+    font-size: 35px;
+}
+
+.probanner{
+    width: 100%;
+    background: url(sunset.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 110vh;
+
+}
+ 
+.propic    {
+    width: 20%;
+    height: 60vh;
+    display: block;
+    margin-left: 6%;  
+    background: url(green.jpg);
+    background-size: cover;
+
+}
+
+.probar{
+    width: 95%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.logo{
+    width: 90;
+    height: 90;
+    cursor: pointer;
+}
+
+.probar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.probar ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 45px;     
+}
+.probar ul li::after{
+    content: '';
+    height: 1px;
+    width: 0;
+    background: #f4b1d2;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.probar ul li:hover::after{
+    width: 100%;
+
+}
+.propage{
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    right: 500px;
+    top: 100px;
+    margin-left: 10px;    
+    transform: translateY(50%);
+    text-align: center;
+    border: 2px solid black;
+    padding: 80px;
+    border-top: 50px 50px;
+    color: rgb(6, 6, 6);
+    font-size: 35px;
+}
+
+.column {
+    float: right;
+    justify-content: right;
+    padding: 15px;
+    padding-right: 50px;
+}
+
+.conbanner{
+    width: 100%;
+    background: url(sunset.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 110vh;
+}
+
+.connavbar{
+    width: 95%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.connavbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.connavbar ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 45px;
+}
+.connavbar ul li::after{
+    content: '';
+    height: 1px;
+    width: 0;
+    background: #f4b1d2;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.connavbar ul li:hover::after{
+    width: 100%;
+}
+.contactpage{
+    width: 100%;
+    position: absolute;
+    top: 50;
+    transform: translateY(50%);
+    text-align: Center;
+    color: black;
+    font-size: 50px;
+   
+    
+}
+
+.social-icon{
+    margin: auto;
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+    
+} 
+
+.card{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 100px;
+
+}
+.text{
+    padding: 5px;
+    font-size: 30px;
+    display: grid;
+}
+
+
+.imgtext h1{
+    font-size: 100px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.imgbanner{
+    width: 90;
+    background: url(sunset.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 130vh;
+}
+.imgnavbar{
+    width: 95%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.imgnavbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.imgnavbar ul li a{
+    text-decoration: none;
+    color: rgb(13, 13, 13);
+    text-transform: uppercase;
+    font-size: 45px;
+}
+.imgnavbar ul li::after{
+    content: '';
+    height: 1px;
+    width: 0;
+    background: #f4b1d2;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.imgnavbar ul li:hover::after{
+    width: 100%;
+}
+.imgpage{
+    width: 100%;
+    position: absolute;
+    top: 50;
+    transform: translateY(50%);
+    text-align: center;
+    color: black;
+}
+
+
+
+.flex-container1{
+    display: flex;
+    justify-content: center;
+    transform: translateY(-1px);
+    margin-left: -20px;
+    
+}
+.flex-container2{
+    display: flex;
+    justify-content: center;
+    transform: translateY(850px);
+
+}
+
+
+.photo1{
+    background-color: transparent;
+    width: 600px;
+    height: 500px;
+    perspective: 1000px;
+    margin-left: 20px;
+}
+  
+.photoinner1{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: 0.8s;
+    transform-style: preserve-3d;
+}
+.photo1:hover .photoinner1{
+    transform: rotateY(180deg);
+}
+.photofront1, .photoback1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.photoback1{
+    background-color: #d1a5a5;
+    color: black;
+    transform: rotateY(180deg);
+}
+
+.photoback1 h1{
+    margin-top: 80px;
+    font-size: 40px;
+}
+.photoback1 p{
+    font-size: 40px;
+}
+
+.photo2{
+    background-color: transparent;
+    width: 600px;
+    height: 500px;
+    perspective: 1000px;
+    margin-left: 20px;
+
+} 
+.photoinner2{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: 0.8s;
+    transform-style: preserve-3d;
+}
+.photo2:hover .photoinner2{
+    transform: rotateY(180deg);
+}
+
+.photofront2, .photoback2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.photoback2{
+    background-color: #d1a5a5;
+    color: black;
+    transform: rotateY(180deg);
+}
+
+.photoback2 h1{
+    margin-top: 80px;
+    font-size: 40px;
+}
+
+.photoback2 p{
+    font-size: 40px;
+}
+
+.photo3{
+    background-color: transparent;
+    width: 600px;
+    height: 500px;
+    perspective: 1000px;
+    margin-left: 20px;
+    
+}
+
+.photoinner3{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: 0.8s;
+    transform-style: preserve-3d;
+}
+
+.photo3:hover .photoinner3{
+    transform: rotateY(180deg);
+}
+
+.photofront3, .photoback3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.photoback3{
+    background-color: #d1a5a5;
+    color: black;
+    transform: rotateY(180deg);
+}
+
+.photoback3 h1{
+    margin-top: 80px;
+    font-size: 40px;
+}
+
+.photoback3 p{
+    font-size: 40px;
+}
+
+.photo4{
+    background-color: transparent;
+    width: 600px;
+    height: 500px;
+    perspective: 1000px;
+}
+
+.photoinner4{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: 0.8s;
+    transform-style: preserve-3d;
+}
+
+.photo4:hover .photoinner4{
+    transform: rotateY(180deg);
+}
+
+.photofront4, .photoback4{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.photoback4{
+    background-color: #d1a5a5;
+    color: black;
+    transform: rotateY(180deg);
+}
+
+.photoback4 h1{
+    margin-top: 80px;
+    font-size: 40px;
+}
+
+.photoback4 p{
+    font-size: 40px;
+}
+
+.photo5{
+    background-color: transparent;
+    width: 600px;
+    height: 500px;
+    perspective: 1000px;
+    margin-left: 20px;
+}
+
+.photoinner5{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: 0.8s;
+    transform-style: preserve-3d;
+}
+
+.photo5:hover .photoinner5{
+    transform: rotateY(180deg);
+}
+
+.photofront5, .photoback5{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.photoback5{
+    background-color: #d1a5a5;
+    color: black;
+    transform: rotateY(180deg);
+}
+
+.photoback5 h2{
+    margin-top: 80px;
+    font-size: 40px;
+}
+.photoback5 p{
+    font-size: 40px;
+}
+
+.photo6{
+    background-color: transparent;
+    width: 600px;
+    height: 500px;
+    perspective: 1000px;
+    margin-left: 20px;
+}
+
+.photoinner6{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: 0.8s;
+    transform-style: preserve-3d;
+}
+
+.photo6:hover .photoinner6{
+    transform: rotateY(180deg);
+}
+
+.photofront6, .photoback6{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.photoback6{
+    background-color: #d1a5a5;
+    color: black;
+    transform: rotateY(180deg);
+}
+
+.photoback6 h1{
+    margin-top: 80px;
+    font-size: 40px;
+}
+
+.photoback6 p{
+    font-size: 40px;
+}
+.may1{
+    border-radius: 80%;
+}
+.may2{
+    border-radius: 80%;
+}
+.may3{
+    border-radius: 80%;
+}
+.may4{
+    border-radius: 80%;
+}
